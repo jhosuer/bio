@@ -983,15 +983,6 @@ h1, h2, h3, h4, h5, h6 {
   this block and the preceding CSS link to the HEAD of your 
   HTML file. 
 */
-#mc_embed_signup {
-  background:#fff; 
-  clear:left; 
-  font:14px Helvetica,Arial,sans-serif; 
-  width: 80%;
-  margin: 0 auto;
-  text-align: center;
-  padding: 50px 0px;
-}
  
 .genric-btn {
   display: inline-block;
