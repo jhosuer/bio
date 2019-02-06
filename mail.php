@@ -21,7 +21,7 @@
         
     </table>';
 
-    if (mail($to, $email, $message, $headers))
+    if (@mail($to, $email, $message, $headers))
     {
         echo 'Your message has been sent.';
     }else{
