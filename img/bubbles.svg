@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 93 121" style="enable-background:new 0 0 93 121;" xml:space="preserve">
+<style type="text/css">
+	@keyframes moveMe {
+		from {
+			transform: translateX(0px) translateY(0px);
+			bottom: 0px;
+			opacity: 0;
+		}
+		to {
+			transform: translateX(0px) translateY(-120px);
+			bottom: 60px;
+			opacity: 1;	
+		}
+	}
+	.st0{fill:#65B8FC;stroke:url(#move1_1_);stroke-miterlimit:10; 				animation-duration: 0.5s;
+		animation-name: moveMe;
+		animation-iteration-count: infinite;
+		animation-direction: alternate;
+		}
+	.st1{fill:url(#move2_1_);stroke:url(#move2_2_);stroke-miterlimit:10; animation-duration: 1s;
+		animation-name: moveMe;
+		animation-iteration-count: infinite;
+		animation-direction: alternate;
+		}
+	.st2{fill:url(#move3_1_);stroke:url(#move3_2_);stroke-miterlimit:10; animation-duration: 1.5s;
+		animation-name: moveMe;
+		animation-iteration-count: infinite;
+		animation-direction: alternate;
+		}
+	.st3{fill:url(#move4_1_);stroke:url(#move4_2_);stroke-miterlimit:10;
+		animation-duration: 2s;
+		animation-name: moveMe;
+		animation-iteration-count: infinite;
+		animation-direction: alternate;
+	}
+	.st4{fill:url(#move5_1_);stroke:url(#move5_2_);stroke-miterlimit:10;
+		animation-duration: 2.5s;
+		animation-name: moveMe;
+		animation-iteration-count: infinite;
+		animation-direction: alternate-reverse;
+	}
+</style>
+<linearGradient id="move1_1_" gradientUnits="userSpaceOnUse" x1="16" y1="22" x2="47" y2="22">
+	<stop  offset="0" style="stop-color:#66CCFF"/>
+	<stop  offset="0.4901" style="stop-color:#68506A"/>
+</linearGradient>
+<ellipse id="move1" class="st0" cx="31.5" cy="22" rx="15" ry="15.5"/>
+<linearGradient id="move2_1_" gradientUnits="userSpaceOnUse" x1="54.5" y1="22" x2="89.5" y2="22">
+	<stop  offset="0" style="stop-color:#66CCFF"/>
+	<stop  offset="0.4901" style="stop-color:#68506A"/>
+</linearGradient>
+<linearGradient id="move2_2_" gradientUnits="userSpaceOnUse" x1="54" y1="22" x2="90" y2="22">
+	<stop  offset="0" style="stop-color:#66CCFF"/>
+	<stop  offset="0.4901" style="stop-color:#68506A"/>
+</linearGradient>
+<circle id="move2" class="st1" cx="72" cy="22" r="17.5"/>
+<linearGradient id="move3_1_" gradientUnits="userSpaceOnUse" x1="20.5" y1="103" x2="41.5" y2="103">
+	<stop  offset="0" style="stop-color:#66CCFF"/>
+	<stop  offset="0.4901" style="stop-color:#68506A"/>
+</linearGradient>
+<linearGradient id="move3_2_" gradientUnits="userSpaceOnUse" x1="20" y1="103" x2="42" y2="103">
+	<stop  offset="0" style="stop-color:#66CCFF"/>
+	<stop  offset="0.4901" style="stop-color:#68506A"/>
+</linearGradient>
+<circle id="move3" class="st2" cx="31" cy="103" r="10.5"/>
+<linearGradient id="move4_1_" gradientUnits="userSpaceOnUse" x1="5.5" y1="65" x2="26.5" y2="65">
+	<stop  offset="0" style="stop-color:#66CCFF"/>
+	<stop  offset="0.4901" style="stop-color:#68506A"/>
+</linearGradient>
+<linearGradient id="move4_2_" gradientUnits="userSpaceOnUse" x1="5" y1="65" x2="27" y2="65">
+	<stop  offset="0" style="stop-color:#66CCFF"/>
+	<stop  offset="1" style="stop-color:#68506A"/>
+</linearGradient>
+<circle id="move4" class="st3" cx="16" cy="65" r="10.5"/>
+<linearGradient id="move5_1_" gradientUnits="userSpaceOnUse" x1="43.5" y1="64" x2="66.5" y2="64">
+	<stop  offset="0" style="stop-color:#66CCFF"/>
+	<stop  offset="0.4901" style="stop-color:#68506A"/>
+</linearGradient>
+<radialGradient id="move5_2_" cx="55" cy="64" r="12" gradientUnits="userSpaceOnUse">
+	<stop  offset="0" style="stop-color:#66CCFF"/>
+	<stop  offset="0.2691" style="stop-color:#66CAFC"/>
+	<stop  offset="0.431" style="stop-color:#66C3F4"/>
+	<stop  offset="0.5645" style="stop-color:#66B7E6"/>
+	<stop  offset="0.6826" style="stop-color:#67A6D1"/>
+	<stop  offset="0.7905" style="stop-color:#6790B7"/>
+	<stop  offset="0.8909" style="stop-color:#677597"/>
+	<stop  offset="0.9839" style="stop-color:#685671"/>
+	<stop  offset="1" style="stop-color:#68506A"/>
+</radialGradient>
+<circle id="move5" class="st4" cx="55" cy="64" r="11.5"/>
+</svg>

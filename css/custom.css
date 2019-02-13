@@ -1,0 +1,125 @@
+@keyframes watchPassionMove {
+    from {
+        transform: translateX(0px) translateY(0px);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(10px) translateY(0px);
+        opacity: 1;	
+    }
+}
+@keyframes factsArea {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;	
+    }
+}
+
+@keyframes moveCar {
+    from {
+        transform: translateX(0px) translateY(0px);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(-700px) translateY(0px);
+        opacity: 1;	
+    }
+}
+
+@keyframes moveDesign {
+    from {
+        transform: translateX(0px) translateY(0px);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(10px) translateY(10px);
+        opacity: 1;	
+    }
+}
+
+@keyframes footer-area {
+    from {
+        opacity: 0;
+        color: #f8f8f8;
+    }
+    to {
+        opacity: 1;
+        color: #ffffff;	
+    }
+}
+@keyframes qualifications-area {
+    from {
+        opacity: 0;
+        color: #cccccc;
+    }
+    to {
+        opacity: 1;
+        color: #000000;	
+    }
+}
+
+.passion {
+    animation-duration: 1s;
+    animation-name: watchPassionMove;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+.passion2 {
+    animation-duration: 1s;
+    animation-name: watchPassionMove;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+.fact1 {
+    animation-duration: 4s;
+    animation-name: factsArea;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+.fact2 {
+    animation-duration: 6s;
+    animation-name: factsArea;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+.fact3 {
+    animation-duration: 8s;
+    animation-name: factsArea;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+.fact4 {
+    animation-duration: 10s;
+    animation-name: factsArea;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+
+.car {
+    animation-duration: 5s;
+    animation-name: moveCar;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.design {
+    animation-duration: 5s;
+    animation-name: moveDesign;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.about-me-qualifications {
+    animation-duration: 10s;
+    animation-name: qualifications-area;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+.about-me-footer {
+    animation-duration: 10s;
+    animation-name: footer-area;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
