@@ -106,7 +106,7 @@
 
 .design {
     animation-duration: 5s;
-    animation-name: moveDesign;
+    animation-name: moveDesign();
     animation-iteration-count: infinite;
     animation-direction: alternate;
 }
