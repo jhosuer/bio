@@ -130,6 +130,15 @@ a, a:focus, a:hover {
   outline: 0;
 }
 
+/*resume*/
+#resume {
+  width: 400px;
+  height: 100px;
+  padding: 20px 20px;
+  border: 1px solid #6CBBFC;
+  border-radius: 10px;
+}
+
 .btn.active.focus,
 .btn.active:focus,
 .btn.focus,
