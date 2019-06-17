@@ -2606,6 +2606,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 /*--------- End Facts Area -------------*/
 /*--------- Start Portfolio Area -------------*/
+#portfolio {
+  padding: 100px 0 !important;
+}
 .portfolio-area .primary-btn {
   color: #fff;
   background-color: #8490ff;
