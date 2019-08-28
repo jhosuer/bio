@@ -175,6 +175,10 @@
     right: 160px;
 }
 
+.jdCGnb {
+    background-color: blue;
+}
+
 @media (max-width: 768px) {
     .imageHolder {
         margin-bottom: 50px;
@@ -194,7 +198,7 @@
 }
 }
 
-@media (min-width: 1024px) {
+@media (max-width: 1024px) {
  .titleProjectTwo {
         position: relative;
         margin-top: 100px;
