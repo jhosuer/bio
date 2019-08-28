@@ -117,9 +117,88 @@
     animation-iteration-count: infinite;
     animation-direction: alternate;
 }
+/*
 .about-me-footer {
     animation-duration: 10s;
     animation-name: footer-area;
     animation-iteration-count: infinite;
     animation-direction: alternate;
+}
+
+*/
+.imageHolder {
+    height: 550px;
+    background-color: #f9f9f9;
+    text-align: center;
+
+}
+.imageHolder img {
+    transition: all 1s ease;
+    margin-top: 10px;
+}
+.imageHolder img:hover {
+    transform: scale(0.95);
+}
+.works {
+    color: black;
+}
+.works:hover {
+    text-decoration: underline;
+    color: black;
+}
+.works p {
+    font-weight: bold; 
+    text-align: left; 
+    position: relative; 
+    bottom: 15px; 
+    font-size: 17px; 
+}
+
+.works-heading {
+    text-align: center;
+    padding-bottom: 0px;
+    
+}
+
+.perWork {
+    height: 200px;
+
+}
+.titleProjectOne {
+    position: relative;
+    right: 40px;
+    top: 0px;
+}
+.titleProjectTwo {
+    position: relative;
+    margin-top: 100px;
+    right: 160px;
+}
+
+@media (max-width: 768px) {
+    .imageHolder {
+        margin-bottom: 50px;
+        margin-top: 30px
+    }
+    .imageHolder img { 
+        height: 80%;
+    }
+
+    .perWork {
+       display: none;
+    }
+    .titleProjectTwo {
+        position: relative;
+        margin-top: 100px;
+        right: 60px;
+}
+}
+
+@media (min-width: 1024px) {
+ .titleProjectTwo {
+        position: relative;
+        margin-top: 100px;
+        right: 80px;
+        
+}   
 }
