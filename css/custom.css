@@ -195,7 +195,9 @@
   cursor: pointer;
   position: relative;
 }
-
+.red-button:hover {
+    color: #f8f8f8;
+}
 @media (max-width: 768px) {
     .imageHolder {
         margin-bottom: 50px;
