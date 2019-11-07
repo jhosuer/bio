@@ -178,6 +178,23 @@
 .jdCGnb {
     background-color: blue;
 }
+.red-button {
+    background: #FB3640;
+    line-height: 42px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border: none;
+  color: #ffffff;
+  display: inline-block;
+  font-weight: 500;
+  position: relative;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  position: relative;
+}
 
 @media (max-width: 768px) {
     .imageHolder {
@@ -197,6 +214,7 @@
         right: 60px;
 }
 }
+
 
 @media (max-width: 1024px) {
  .titleProjectTwo {
