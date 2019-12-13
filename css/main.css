@@ -131,12 +131,13 @@ a, a:focus, a:hover {
 }
 
 /*resume*/
-.resume {
-  width: 400px;
-  height: 100px;
-  padding: 20px 20px;
+.resume a {
+  width: 170px;
+  height: 70px;
+  padding: 15px 0px;
   border: 1px solid #6CBBFC;
   border-radius: 10px;
+  text-align: center;
 }
 #cant-resume {
   position: relative;

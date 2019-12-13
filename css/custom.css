@@ -198,6 +198,9 @@
 .red-button:hover {
     color: #f8f8f8;
 }
+.banner-right  img {
+    margin-bottom: -18px;
+}
 @media (max-width: 768px) {
     .imageHolder {
         margin-bottom: 50px;
@@ -215,6 +218,37 @@
         margin-top: 100px;
         right: 60px;
 }
+header {
+    height: 60px;
+}
+.banner-area .container {
+   text-align: center;
+}
+.banner-right {
+    width: 80%;
+    text-align: left;
+}
+.banner-right  img {
+    margin-bottom: -20px;
+
+}
+.resume {
+    text-align: center;
+}
+@keyframes moveCar {
+    from {
+        transform: translateX(0px) translateY(0px);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(200px) translateY(0px);
+        opacity: 1; 
+    }
+}
+/*footer .container {
+    text-align: center;
+    margin: 0 auto;
+}*/
 }
 
 
